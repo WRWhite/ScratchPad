@@ -17,13 +17,6 @@ Run a simple C sample on TXFB-TX6 device running Debian GNU/Linux 8 (Jessie), ke
 -   [Tips](#tips)
 -   [Next Steps](#NextSteps)
 
-# Instructions for using this template
-
--   Replace the text in {placeholders} with correct values.
--   Delete the lines {{enclosed}} after following the instructions enclosed between them.
--   It is advisable to use external links, wherever possible.
--   Remove this section from final document.
-
 <a name="Introduction"></a>
 # Introduction
 
@@ -42,12 +35,21 @@ You should have the following items ready before beginning the process:
 -   [Prepare your development environment][setup-devbox-linux]
 -   [Setup your IoT hub][lnk-setup-iot-hub]
 -   [Provision your device and get its credentials][lnk-manage-iot-hub]
--   TXFB-TX6TXFB-TX6 device.
--   {{Please specify if any other software(s) or hardware(s) are required.}}
+-   [TXFB-TX6 device](http://www.directinsight.co.uk/configurable-arm-based-sbcs)
+
 
 <a name="PrepareDevice"></a>
 # Step 2: Prepare your Device
--   {{Write down the instructions required to setup, configure and connect your device. Please use external links when possible pointing to your own page with device preparation steps.}}
+
+The Triton TX6 module comes with a very light weight custom Linux distribution which is an ideal starting point for a headless device. Alternatively it is possible to install a Yocto image. For the purposes of evaluating the Azure IoT Hub SDK the easiest approach is to use a more full featured Debian distribution which is highly flexible and configurable.Once you have established the features required for your embedded syatem it is straight forward to rool them into either a Yocto build or use the native Karo Linux distribution.
+
+- Install a Debian 8 (Jessie) distribution on the Triton TX6 module in the TXFB-TX6 board:
+
+    http://blogs.directinsight.co.uk/building-debian-8-jessie-root-files-system-use-triton-tx6-module
+
+- Program the Debian 8 Jessie into the Triton TX6 module:
+
+    https://www.karo-electronics.com/1550.html?&L=1
 
 <a name="Build"></a>
 # Step 3: Build and Run the sample
