@@ -4,7 +4,7 @@ device: TXFB-TX6
 language: c
 ---
 
-Run a simple C sample on TXFB-TX6 device running {enter the OS name running on device}
+Run a simple C sample on TXFB-TX6 device running Debian GNU/Linux 8 (Jessie), kernel v4.4.0
 ===
 ---
 
