@@ -144,5 +144,5 @@ You have now learned how to run a sample application that collects sensor data a
 [Weather forecast using the sensor data from your IoT hub in Azure Machine Learning]: https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-weather-forecast-machine-learning
 [Remote monitoring and notifications with Logic Apps]: https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-monitoring-notifications-with-azure-logic-apps
 [setup-devbox-linux]: https://github.com/Azure/azure-iot-sdk-c/blob/master/doc/devbox_setup.md
-[lnk-setup-iot-hub]: ../../setup_iothub.md
-[lnk-manage-iot-hub]: ../../manage_iot_hub.md
+[lnk-setup-iot-hub]: ../setup_iothub.md
+[lnk-manage-iot-hub]: ../manage_iot_hub.md
