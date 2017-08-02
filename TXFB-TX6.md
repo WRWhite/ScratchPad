@@ -1,10 +1,10 @@
 ---
-platform: {enter the OS name running on device}
-device: {enter your device name here}
+platform: Debian GNU/Linux 8 (Jessie), kernel v4.4.0
+device: TXFB-TX6
 language: c
 ---
 
-Run a simple C sample on {enter your device name here} device running {enter the OS name running on device}
+Run a simple C sample on TXFB-TX6 device running {enter the OS name running on device}
 ===
 ---
 
@@ -29,7 +29,7 @@ Run a simple C sample on {enter your device name here} device running {enter the
 
 **About this document**
 
-This document describes how to connect {enter your device name here} device running {enter the OS name running on device} with Azure IoT SDK. This multi-step process includes:
+This document describes how to connect TXFB-TX6 device running Debian GNU/Linux 8 (Jessie), kernel v4.4.0 with Azure IoT SDK. This multi-step process includes:
 -   Configuring Azure IoT Hub
 -   Registering your IoT device
 -   Build and deploy Azure IoT SDK on device
@@ -42,7 +42,7 @@ You should have the following items ready before beginning the process:
 -   [Prepare your development environment][setup-devbox-linux]
 -   [Setup your IoT hub][lnk-setup-iot-hub]
 -   [Provision your device and get its credentials][lnk-manage-iot-hub]
--   {enter your device name here} device.
+-   TXFB-TX6TXFB-TX6 device.
 -   {{Please specify if any other software(s) or hardware(s) are required.}}
 
 <a name="PrepareDevice"></a>
