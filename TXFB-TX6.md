@@ -41,7 +41,7 @@ You should have the following items ready before beginning the process:
 <a name="PrepareDevice"></a>
 # Step 2: Prepare your Device
 
-The Triton TX6 module comes with a very light weight custom Linux distribution which is an ideal starting point for a headless device. Alternatively it is possible to install a Yocto image. For the purposes of evaluating the Azure IoT Hub SDK the easiest approach is to use a more full featured Debian distribution which is highly flexible and configurable.Once you have established the features required for your embedded syatem it is straight forward to rool them into either a Yocto build or use the native Karo Linux distribution.
+The Triton TX6 module comes with a very light weight custom Linux distribution which is an ideal starting point for a headless device. Alternatively it is possible to install a Yocto image. For the purposes of evaluating the Azure IoT Hub SDK the easiest approach is to use a more full featured Debian distribution which is highly flexible and configurable.Once you have established the features required for your embedded system it is straight forward to roll them into either a Yocto build or use the native Karo Linux distribution.
 
 - Install a Debian 8 (Jessie) distribution on the Triton TX6 module in the TXFB-TX6 board:
 
