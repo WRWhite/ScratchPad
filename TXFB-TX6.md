@@ -71,15 +71,15 @@ The Triton TX6 module comes with a very light weight custom Linux distribution w
 
 -   Edit the following file using any text editor of your choice:
 
-    {{**For AMQP protocol:**}}
+    **For AMQP protocol:**
 
         azure-iot-sdk-c/iothub_client/samples/iothub_client_sample_amqp/iothub_client_sample_amqp.c
 
-    {{**For HTTPS protocol:**}}
+    **For HTTPS protocol:**
 
         azure-iot-sdk-c/iothub_client/samples/iothub_client_sample_http/iothub_client_sample_http.c
         
-     {{**For MQTT protocol:**}}
+     **For MQTT protocol:**
 
         nano azure-iot-sdk-c/iothub_client/samples/iothub_client_sample_mqtt/iothub_client_sample_mqtt.c
 
@@ -97,15 +97,15 @@ The Triton TX6 module comes with a very light weight custom Linux distribution w
 
 -   Run the sample by issuing following command:
 
-    {{**If using AMQP protocol:**}}
+    **If using AMQP protocol:**
 
         ~/azure-iot-sdk-c/cmake/iotsdk_linux/iothub_client/samples/iothub_client_sample_amqp/iothub_client_sample_amqp
 
-    {{**If using HTTP protocol:**}}
+    **If using HTTP protocol:**
 
         ~/azure-iot-sdk-c/cmake/iotsdk_linux/iothub_client/samples/iothub_client_sample_http/iothub_client_sample_http
 
-    {{**If using MQTT protocol:**}}
+    **If using MQTT protocol:**
 
         ~/azure-iot-sdk-c/c/cmake/iotsdk_linux/iothub_client/samples/iothub_client_sample_mqtt/iothub_client_sample_mqtt
 
