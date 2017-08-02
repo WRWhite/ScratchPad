@@ -57,7 +57,7 @@ The Triton TX6 module comes with a very light weight custom Linux distribution w
 <a name="Load"></a>
 ## 3.1 Build SDK and sample
 
--   Open a PuTTY or Tera Term session and connect to the TXFB-TX6.
+-   Open a PuTTY or Tera Term session and connect to the TXFB-TX6. Logon as the user debian. The password is debian.
 
 -   Install the prerequisite packages for the Microsoft Azure IoT Device SDK for C by issuing the following commands from the command line on your board:
 
@@ -69,7 +69,7 @@ The Triton TX6 module comes with a very light weight custom Linux distribution w
 
         sudo apt-get install -y curl libcurl4-openssl-dev uuid-dev uuid g++ make cmake git unzip openjdk-7-jre libssl-dev pkg-config
 
--   Download the Microsoft Azure IoT Device SDK for C to the board by issuing the following command on the board::
+-   Download the Microsoft Azure IoT Device SDK for C to the board by issuing the following command on the board:
 
         git clone --recursive https://github.com/Azure/azure-iot-sdk-c.git
 
