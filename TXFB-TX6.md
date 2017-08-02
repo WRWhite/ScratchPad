@@ -100,7 +100,6 @@ The Triton TX6 module comes with a very light weight custom Linux distribution w
 ## 3.2 Send Device Events to IoT Hub:
 
 -   Run the sample by issuing following command:
-{{***Keep the command set based on your protocol(s) and remove the rest.***}}
 
     {{**If using AMQP protocol:**}}
 
