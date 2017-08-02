@@ -47,10 +47,6 @@ The Triton TX6 module comes with a very light weight custom Linux distribution w
 
     http://blogs.directinsight.co.uk/building-debian-8-jessie-root-files-system-use-triton-tx6-module
 
-- Program the Debian 8 Jessie into the Triton TX6 module:
-
-    https://www.karo-electronics.com/1550.html?&L=1
-
 <a name="Build"></a>
 # Step 3: Build and Run the sample
 
